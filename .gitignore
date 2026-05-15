@@ -1,0 +1,16 @@
+.keys/
+*.key
+*.pem
+.env
+node_modules/
+.DS_Store
+
+# Plain config is local-only. Only the encrypted blob + signature are committed.
+games.json
+
+# Plaintext assets are local-only. Only .enc files are committed.
+assets/**/*.png
+assets/**/*.jpg
+assets/**/*.jpeg
+assets/**/*.webp
+assets/**/*.gif

@@ -1,0 +1,13 @@
+{
+  "name": "mc-patch-conf",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "keygen": "node scripts/keygen.mjs",
+    "encrypt": "node scripts/encrypt.mjs",
+    "sign": "node scripts/sign.mjs",
+    "verify": "node scripts/verify.mjs",
+    "encrypt-assets": "node scripts/encrypt-assets.mjs",
+    "publish": "node scripts/encrypt-assets.mjs && node scripts/encrypt.mjs && node scripts/sign.mjs && node scripts/verify.mjs"
+  }
+}
