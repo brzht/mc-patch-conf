@@ -1,0 +1,6 @@
+# The encrypted config envelope, its Ed25519 signature, and the encrypted
+# assets are byte-exact, SIGNED artifacts. Git must never apply EOL/text
+# normalization to them — a single CRLF rewrite would invalidate the signature
+# that the launcher verifies. Treat them as binary (no -text, no diff).
+*.enc binary
+*.sig binary
