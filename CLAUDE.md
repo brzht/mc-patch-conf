@@ -13,7 +13,7 @@ Read by the launcher (`mc-ue-patcher` `Models/GameConfig.cs`); older launchers i
 | Field | Read since | Effect | Set on |
 |---|---|---|---|
 | `ndiLaunchArguments` | v0.0.13 | shows the `BM / NDI` output toggle; NDI mode launches with this string instead of `launchArguments` | both DOTA2 entries |
-| `callNdiToggle` | v0.0.18 | shows the CALL NDI checkbox (on by default); unticked adds `-mcndiclean=0`, which stops the game's NDI call feed | both CS_V3 entries |
+| `callNdiToggle` | v0.0.18 | shows the CALL NDI checkbox (on by default); unticked adds `-mcndiclean=0`, which stops the game's branded NDI feed (CS_V3 call feed, DOTA2 `DOTA2_BRANDED`) | both CS_V3 and both DOTA2 entries (DOTA2 since 2026-10-13) |
 
 ## Publish
 
